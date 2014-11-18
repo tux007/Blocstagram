@@ -134,5 +134,29 @@ static NSParagraphStyle *paragraphStyle;
     self.separatorInset = UIEdgeInsetsMake(0, 0, 0, CGRectGetWidth(self.bounds));
 }
 
+- (void) setMediaItem:(BLCMedia *)mediaItem {
+    _mediaItem = mediaItem;
+    self.mediaImageView.image = _mediaItem.image;
+    self.usernameAndCaptionLabel.attributedText = [self usernameAndCaptionString];
+    self.commentLabel.attributedText = [self commentString];
+}
+
++ (CGFloat) heightForMediaItem:(BLCMedia *)mediaItem width:(CGFloat)width {
+    // Make a cell
+    BLCMediaTableViewCell *layoutCell = [[BLCMediaTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"layoutCell"];
+    
+    // Set it to the given width, and the maximum possible height
+    layoutCell.frame = CGRectMake(0, 0, width, CGFLOAT_MAX);
+    
+    // Give it the media item
+    layoutCell.mediaItem = mediaItem;
+    
+    // Make it adjust the image view and labels
+    [layoutCell layoutSubviews];
+    
+    // The height will be wherever the bottom of the comments label is
+    return CGRectGetMaxY(layoutCell.commentLabel.frame);
+}
+
 
 @end
