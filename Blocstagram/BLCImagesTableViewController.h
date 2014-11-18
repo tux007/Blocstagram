@@ -10,6 +10,6 @@
 
 @interface BLCImagesTableViewController : UITableViewController
 
-@property (nonatomic, readonly, strong) NSArray *mediaItems;
+@property (nonatomic, readwrite, strong) NSMutableArray *mediaItems;
 
 @end

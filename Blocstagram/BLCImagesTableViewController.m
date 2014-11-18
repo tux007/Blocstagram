@@ -14,8 +14,6 @@
 
 @interface BLCImagesTableViewController ()
 
-@property (nonatomic, readwrite, strong) NSArray *mediaItems;
-
 @end
 
 @implementation BLCImagesTableViewController
@@ -43,6 +41,7 @@
 {
     self = [super initWithStyle:style];
     if (self) {
+        
         // Custom initialization
     }
     return self;
@@ -84,19 +83,57 @@
 }
 
 
+
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Return NO if you do not want the specified item to be editable.
     return YES;
 }
 
+
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-       // [_mediaItems removeObjectAtIndex:indexPath.row];
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else {
-        NSLog(@"Not implemented yet! %ld", editingStyle);
+        
+    // if (editingStyle == UITableViewCellEditingStyleDelete) {
+    //    [_mediaItems removeObjectAtIndex:indexPath.row];
+    //    [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+    // } else {
+    //    NSLog(@"Not implemented yet! %ld", editingStyle);
+    // }
+
+    
+    if (editingStyle == UITableViewCellEditingStyleDelete)
+    {
+        [tableView beginUpdates];
+        // First remove this object from the source
+        [self.mediaItems removeObjectAtIndex:indexPath.row];
+        // Then remove the associated cell from the Table View
+        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+        [tableView endUpdates];
     }
+    
+    // Finally, reload data in view
+    [self.tableView reloadData];
+    
+    /*
+     
+     // Delete from underlying data source first!
+     recentImages = [recentImages removeObjectAtIndex:indexPath.row];
+     
+     // Then perform the action on the tableView
+     if (editingStyle == UITableViewCellEditingStyleDelete)
+     {
+     [tableView beginUpdates];
+     [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]
+     withRowAnimation:UITableViewRowAnimationFade];
+     [tableView endUpdates];
+     }
+     
+     // Finally, reload data in view
+     [self.tableView reloadData];
+     
+     */
+    
+    
 }
 
 
