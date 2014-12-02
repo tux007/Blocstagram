@@ -17,7 +17,7 @@ typedef void (^BLCNewItemCompletionBlock)(NSError *error);
 
 +(instancetype) sharedInstance;
 
-@property (nonatomic, strong, readonly) NSMutableArray *mediaItems;
+@property (nonatomic, strong, readonly) NSArray *mediaItems;
 
 - (void) deleteMediaItem:(BLCMedia *)item;
 
