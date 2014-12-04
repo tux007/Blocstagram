@@ -16,7 +16,7 @@
     NSMutableArray *_mediaItems;
 }
 
-@property (nonatomic, strong) NSMutableArray *mediaItems;
+@property (nonatomic, strong) NSArray *mediaItems;
 @property (nonatomic, strong) NSString *accessToken;
 
 @property (nonatomic, assign) BOOL isRefreshing;
@@ -172,8 +172,10 @@
     if (self.isRefreshing == NO) {
         self.isRefreshing = YES;
         
-        NSString *minID = [[self.mediaItems firstObject] idNumber];
-        NSDictionary *parameters = @{@"min_id": minID};
+        //NSString *minID = [[self.   mediaItems firstObject] idNumber];
+        // NSDictionary *parameters = @{@"min_id": minID};
+        NSDictionary *parameters = @{@"min_id" : self.minID ? self.minID : [NSNull null]};
+        
         
         [self populateDataWithParameters:parameters completionHandler:^(NSError *error) {
             self.isRefreshing = NO;
@@ -273,6 +275,10 @@
     }
     
     NSMutableArray *mutableArrayWithKVO = [self mutableArrayValueForKey:@"mediaItems"];
+    
+    if(tmpMediaItems.count > 0) {
+        self.minID = [[tmpMediaItems firstObject] idNumber];
+    }
     
     if (parameters[@"min_id"]) {
         // This was a pull-to-refresh request
