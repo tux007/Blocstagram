@@ -13,6 +13,8 @@
 
 @interface BLCMedia : NSObject
 
+- (instancetype) initWithDictionary:(NSDictionary *)mediaDictionary;
+
 @property (nonatomic, strong) NSString *idNumber;
 @property (nonatomic, strong) BLCUser *user;
 @property (nonatomic, strong) NSURL *mediaURL;
