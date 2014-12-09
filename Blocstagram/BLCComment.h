@@ -11,7 +11,7 @@
 
 @class BLCUser;
 
-@interface BLCComment : NSObject
+@interface BLCComment : NSObject <NSCoding>
 
 - (instancetype) initWithDictionary:(NSDictionary *)commentDictionary;
 

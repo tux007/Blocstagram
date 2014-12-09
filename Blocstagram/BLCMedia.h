@@ -11,7 +11,7 @@
 
 @class BLCUser;
 
-@interface BLCMedia : NSObject
+@interface BLCMedia : NSObject <NSCoding>
 
 - (instancetype) initWithDictionary:(NSDictionary *)mediaDictionary;
 
