@@ -30,6 +30,8 @@
 		E24F80B01A19BEDC00C06E0C /* BLCMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = E24F80AF1A19BEDC00C06E0C /* BLCMedia.m */; };
 		E24F80B31A19BFB600C06E0C /* BLCComment.m in Sources */ = {isa = PBXBuildFile; fileRef = E24F80B21A19BFB600C06E0C /* BLCComment.m */; };
 		E24F80B61A19C03E00C06E0C /* BLCDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E24F80B51A19C03E00C06E0C /* BLCDataSource.m */; };
+		E27617E31A775AEA0074D3DA /* BLCCircleSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E27617E21A775AEA0074D3DA /* BLCCircleSpinnerView.m */; };
+		E27617E61A77EFAD0074D3DA /* BLCLikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E27617E51A77EFAD0074D3DA /* BLCLikeButton.m */; };
 		E2C9216B1A3E0E65004A1CBF /* BLCMediaFullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C9216A1A3E0E65004A1CBF /* BLCMediaFullScreenViewController.m */; };
 		E2DBC9281A2FA9D300532A18 /* BLCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DBC9271A2FA9D300532A18 /* BLCLoginViewController.m */; };
 		E2FB83681A6EF4EB002C07E8 /* BLCMediaFullScreenAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FB83671A6EF4EB002C07E8 /* BLCMediaFullScreenAnimator.m */; };
@@ -82,6 +84,10 @@
 		E24F80B21A19BFB600C06E0C /* BLCComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCComment.m; sourceTree = "<group>"; };
 		E24F80B41A19C03E00C06E0C /* BLCDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCDataSource.h; sourceTree = "<group>"; };
 		E24F80B51A19C03E00C06E0C /* BLCDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCDataSource.m; sourceTree = "<group>"; };
+		E27617E11A775AEA0074D3DA /* BLCCircleSpinnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCCircleSpinnerView.h; sourceTree = "<group>"; };
+		E27617E21A775AEA0074D3DA /* BLCCircleSpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCCircleSpinnerView.m; sourceTree = "<group>"; };
+		E27617E41A77EFAD0074D3DA /* BLCLikeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCLikeButton.h; sourceTree = "<group>"; };
+		E27617E51A77EFAD0074D3DA /* BLCLikeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCLikeButton.m; sourceTree = "<group>"; };
 		E2C921691A3E0E65004A1CBF /* BLCMediaFullScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCMediaFullScreenViewController.h; sourceTree = "<group>"; };
 		E2C9216A1A3E0E65004A1CBF /* BLCMediaFullScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCMediaFullScreenViewController.m; sourceTree = "<group>"; };
 		E2DBC9261A2FA9D300532A18 /* BLCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCLoginViewController.h; sourceTree = "<group>"; };
@@ -160,6 +166,10 @@
 				E2C9216A1A3E0E65004A1CBF /* BLCMediaFullScreenViewController.m */,
 				E2FB83661A6EF4EB002C07E8 /* BLCMediaFullScreenAnimator.h */,
 				E2FB83671A6EF4EB002C07E8 /* BLCMediaFullScreenAnimator.m */,
+				E27617E11A775AEA0074D3DA /* BLCCircleSpinnerView.h */,
+				E27617E21A775AEA0074D3DA /* BLCCircleSpinnerView.m */,
+				E27617E41A77EFAD0074D3DA /* BLCLikeButton.h */,
+				E27617E51A77EFAD0074D3DA /* BLCLikeButton.m */,
 				E24F80771A1678B800C06E0C /* Main.storyboard */,
 				E24F807A1A1678B800C06E0C /* Images.xcassets */,
 				E24F807C1A1678B800C06E0C /* LaunchScreen.xib */,
@@ -368,10 +378,12 @@
 			files = (
 				E24F80AD1A19BE5A00C06E0C /* BLCUser.m in Sources */,
 				E2FB83681A6EF4EB002C07E8 /* BLCMediaFullScreenAnimator.m in Sources */,
+				E27617E61A77EFAD0074D3DA /* BLCLikeButton.m in Sources */,
 				E24F80731A1678B800C06E0C /* AppDelegate.m in Sources */,
 				E24F80701A1678B800C06E0C /* main.m in Sources */,
 				E24F80AA1A167BDB00C06E0C /* BLCImagesTableViewController.m in Sources */,
 				E24F80B01A19BEDC00C06E0C /* BLCMedia.m in Sources */,
+				E27617E31A775AEA0074D3DA /* BLCCircleSpinnerView.m in Sources */,
 				E24F80B31A19BFB600C06E0C /* BLCComment.m in Sources */,
 				E2C9216B1A3E0E65004A1CBF /* BLCMediaFullScreenViewController.m in Sources */,
 				E22FCDA51A1B3C59000052F5 /* BLCMediaTableViewCell.m in Sources */,
