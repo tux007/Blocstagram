@@ -11,7 +11,6 @@
 		E22FCDA51A1B3C59000052F5 /* BLCMediaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FCDA41A1B3C59000052F5 /* BLCMediaTableViewCell.m */; };
 		E24F80701A1678B800C06E0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E24F806F1A1678B800C06E0C /* main.m */; };
 		E24F80731A1678B800C06E0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E24F80721A1678B800C06E0C /* AppDelegate.m */; };
-		E24F80791A1678B800C06E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24F80771A1678B800C06E0C /* Main.storyboard */; };
 		E24F807B1A1678B800C06E0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24F807A1A1678B800C06E0C /* Images.xcassets */; };
 		E24F807E1A1678B800C06E0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E24F807C1A1678B800C06E0C /* LaunchScreen.xib */; };
 		E24F808A1A1678B800C06E0C /* BlocstagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E24F80891A1678B800C06E0C /* BlocstagramTests.m */; };
@@ -30,6 +29,10 @@
 		E24F80B01A19BEDC00C06E0C /* BLCMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = E24F80AF1A19BEDC00C06E0C /* BLCMedia.m */; };
 		E24F80B31A19BFB600C06E0C /* BLCComment.m in Sources */ = {isa = PBXBuildFile; fileRef = E24F80B21A19BFB600C06E0C /* BLCComment.m */; };
 		E24F80B61A19C03E00C06E0C /* BLCDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E24F80B51A19C03E00C06E0C /* BLCDataSource.m */; };
+		E2538AC51A910C9100CCAA51 /* BLCCameraToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E2538AC41A910C9100CCAA51 /* BLCCameraToolbar.m */; };
+		E2538AC81A91138C00CCAA51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2538AC61A91138C00CCAA51 /* Main.storyboard */; };
+		E2538ACB1A91143A00CCAA51 /* BLCCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2538ACA1A91143A00CCAA51 /* BLCCameraViewController.m */; };
+		E2538ACE1A92219200CCAA51 /* UIImage+BLCImageUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E2538ACD1A92219200CCAA51 /* UIImage+BLCImageUtilities.m */; };
 		E270EA131A814774001FC1B4 /* BLCComposeCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E270EA121A814774001FC1B4 /* BLCComposeCommentView.m */; };
 		E27617E31A775AEA0074D3DA /* BLCCircleSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E27617E21A775AEA0074D3DA /* BLCCircleSpinnerView.m */; };
 		E27617E61A77EFAD0074D3DA /* BLCLikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E27617E51A77EFAD0074D3DA /* BLCLikeButton.m */; };
@@ -59,7 +62,6 @@
 		E24F806F1A1678B800C06E0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E24F80711A1678B800C06E0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E24F80721A1678B800C06E0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E24F80781A1678B800C06E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E24F807A1A1678B800C06E0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E24F807D1A1678B800C06E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E24F80831A1678B800C06E0C /* BlocstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +87,13 @@
 		E24F80B21A19BFB600C06E0C /* BLCComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCComment.m; sourceTree = "<group>"; };
 		E24F80B41A19C03E00C06E0C /* BLCDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCDataSource.h; sourceTree = "<group>"; };
 		E24F80B51A19C03E00C06E0C /* BLCDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCDataSource.m; sourceTree = "<group>"; };
+		E2538AC31A910C9100CCAA51 /* BLCCameraToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCCameraToolbar.h; sourceTree = "<group>"; };
+		E2538AC41A910C9100CCAA51 /* BLCCameraToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCCameraToolbar.m; sourceTree = "<group>"; };
+		E2538AC71A91138C00CCAA51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../ios/Blocstagram/Blocstagram/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2538AC91A91143A00CCAA51 /* BLCCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCCameraViewController.h; sourceTree = "<group>"; };
+		E2538ACA1A91143A00CCAA51 /* BLCCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCCameraViewController.m; sourceTree = "<group>"; };
+		E2538ACC1A92219200CCAA51 /* UIImage+BLCImageUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BLCImageUtilities.h"; sourceTree = "<group>"; };
+		E2538ACD1A92219200CCAA51 /* UIImage+BLCImageUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BLCImageUtilities.m"; sourceTree = "<group>"; };
 		E270EA111A814774001FC1B4 /* BLCComposeCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCComposeCommentView.h; sourceTree = "<group>"; };
 		E270EA121A814774001FC1B4 /* BLCComposeCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCComposeCommentView.m; sourceTree = "<group>"; };
 		E27617E11A775AEA0074D3DA /* BLCCircleSpinnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCCircleSpinnerView.h; sourceTree = "<group>"; };
@@ -175,8 +184,14 @@
 				E27617E51A77EFAD0074D3DA /* BLCLikeButton.m */,
 				E270EA111A814774001FC1B4 /* BLCComposeCommentView.h */,
 				E270EA121A814774001FC1B4 /* BLCComposeCommentView.m */,
-				E24F80771A1678B800C06E0C /* Main.storyboard */,
+				E2538AC31A910C9100CCAA51 /* BLCCameraToolbar.h */,
+				E2538AC41A910C9100CCAA51 /* BLCCameraToolbar.m */,
+				E2538AC91A91143A00CCAA51 /* BLCCameraViewController.h */,
+				E2538ACA1A91143A00CCAA51 /* BLCCameraViewController.m */,
+				E2538ACC1A92219200CCAA51 /* UIImage+BLCImageUtilities.h */,
+				E2538ACD1A92219200CCAA51 /* UIImage+BLCImageUtilities.m */,
 				E24F807A1A1678B800C06E0C /* Images.xcassets */,
+				E2538AC61A91138C00CCAA51 /* Main.storyboard */,
 				E24F807C1A1678B800C06E0C /* LaunchScreen.xib */,
 				E24F80931A167B2700C06E0C /* Images */,
 				E24F806D1A1678B800C06E0C /* Supporting Files */,
@@ -287,6 +302,7 @@
 				TargetAttributes = {
 					E24F80691A1678B800C06E0C = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = HH32XF6U5Z;
 					};
 					E24F80821A1678B800C06E0C = {
 						CreatedOnToolsVersion = 6.1;
@@ -321,11 +337,11 @@
 				E24F80A71A167B7C00C06E0C /* 10.jpg in Resources */,
 				E24F80A51A167B7C00C06E0C /* 8.jpg in Resources */,
 				E24F80A31A167B7C00C06E0C /* 6.jpg in Resources */,
-				E24F80791A1678B800C06E0C /* Main.storyboard in Resources */,
 				E24F80A21A167B7C00C06E0C /* 5.jpg in Resources */,
 				E24F80A11A167B7C00C06E0C /* 4.jpg in Resources */,
 				E24F809E1A167B7C00C06E0C /* 1.jpg in Resources */,
 				E24F809F1A167B7C00C06E0C /* 2.jpg in Resources */,
+				E2538AC81A91138C00CCAA51 /* Main.storyboard in Resources */,
 				E24F80A01A167B7C00C06E0C /* 3.jpg in Resources */,
 				E24F80A41A167B7C00C06E0C /* 7.jpg in Resources */,
 				E24F80A61A167B7C00C06E0C /* 9.jpg in Resources */,
@@ -382,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E24F80AD1A19BE5A00C06E0C /* BLCUser.m in Sources */,
+				E2538AC51A910C9100CCAA51 /* BLCCameraToolbar.m in Sources */,
 				E2FB83681A6EF4EB002C07E8 /* BLCMediaFullScreenAnimator.m in Sources */,
 				E27617E61A77EFAD0074D3DA /* BLCLikeButton.m in Sources */,
 				E24F80731A1678B800C06E0C /* AppDelegate.m in Sources */,
@@ -393,8 +410,10 @@
 				E2C9216B1A3E0E65004A1CBF /* BLCMediaFullScreenViewController.m in Sources */,
 				E22FCDA51A1B3C59000052F5 /* BLCMediaTableViewCell.m in Sources */,
 				E24F80B61A19C03E00C06E0C /* BLCDataSource.m in Sources */,
+				E2538ACB1A91143A00CCAA51 /* BLCCameraViewController.m in Sources */,
 				E2DBC9281A2FA9D300532A18 /* BLCLoginViewController.m in Sources */,
 				E270EA131A814774001FC1B4 /* BLCComposeCommentView.m in Sources */,
+				E2538ACE1A92219200CCAA51 /* UIImage+BLCImageUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,20 +436,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E24F80771A1678B800C06E0C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E24F80781A1678B800C06E0C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E24F807C1A1678B800C06E0C /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E24F807D1A1678B800C06E0C /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		E2538AC61A91138C00CCAA51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2538AC71A91138C00CCAA51 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -519,6 +538,7 @@
 			baseConfigurationReference = C5E03B4F00937C798A90DCB3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Blocstagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -530,6 +550,7 @@
 			baseConfigurationReference = D1F1795DF530B18627A59C8D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Blocstagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
