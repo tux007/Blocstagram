@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DF3AC12A67C746CA7697409A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 124C11E10271FD4EC3900955 /* libPods.a */; };
+		E206790E1A9C9176002375DB /* BLCCropBox.m in Sources */ = {isa = PBXBuildFile; fileRef = E206790D1A9C9176002375DB /* BLCCropBox.m */; };
+		E20679111A9CA29A002375DB /* BLCCropImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20679101A9CA29A002375DB /* BLCCropImageViewController.m */; };
+		E20679171A9CBF6B002375DB /* BLCImageLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20679161A9CBF6B002375DB /* BLCImageLibraryViewController.m */; };
 		E22FCDA51A1B3C59000052F5 /* BLCMediaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FCDA41A1B3C59000052F5 /* BLCMediaTableViewCell.m */; };
 		E24F80701A1678B800C06E0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E24F806F1A1678B800C06E0C /* main.m */; };
 		E24F80731A1678B800C06E0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E24F80721A1678B800C06E0C /* AppDelegate.m */; };
@@ -55,6 +58,12 @@
 		124C11E10271FD4EC3900955 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E03B4F00937C798A90DCB3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D1F1795DF530B18627A59C8D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E206790C1A9C9176002375DB /* BLCCropBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCCropBox.h; sourceTree = "<group>"; };
+		E206790D1A9C9176002375DB /* BLCCropBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCCropBox.m; sourceTree = "<group>"; };
+		E206790F1A9CA29A002375DB /* BLCCropImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCCropImageViewController.h; sourceTree = "<group>"; };
+		E20679101A9CA29A002375DB /* BLCCropImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCCropImageViewController.m; sourceTree = "<group>"; };
+		E20679151A9CBF6B002375DB /* BLCImageLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCImageLibraryViewController.h; sourceTree = "<group>"; };
+		E20679161A9CBF6B002375DB /* BLCImageLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCImageLibraryViewController.m; sourceTree = "<group>"; };
 		E22FCDA31A1B3C59000052F5 /* BLCMediaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCMediaTableViewCell.h; sourceTree = "<group>"; };
 		E22FCDA41A1B3C59000052F5 /* BLCMediaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCMediaTableViewCell.m; sourceTree = "<group>"; };
 		E24F806A1A1678B800C06E0C /* Blocstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blocstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -190,6 +199,12 @@
 				E2538ACA1A91143A00CCAA51 /* BLCCameraViewController.m */,
 				E2538ACC1A92219200CCAA51 /* UIImage+BLCImageUtilities.h */,
 				E2538ACD1A92219200CCAA51 /* UIImage+BLCImageUtilities.m */,
+				E206790C1A9C9176002375DB /* BLCCropBox.h */,
+				E206790D1A9C9176002375DB /* BLCCropBox.m */,
+				E206790F1A9CA29A002375DB /* BLCCropImageViewController.h */,
+				E20679101A9CA29A002375DB /* BLCCropImageViewController.m */,
+				E20679151A9CBF6B002375DB /* BLCImageLibraryViewController.h */,
+				E20679161A9CBF6B002375DB /* BLCImageLibraryViewController.m */,
 				E24F807A1A1678B800C06E0C /* Images.xcassets */,
 				E2538AC61A91138C00CCAA51 /* Main.storyboard */,
 				E24F807C1A1678B800C06E0C /* LaunchScreen.xib */,
@@ -397,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E20679111A9CA29A002375DB /* BLCCropImageViewController.m in Sources */,
 				E24F80AD1A19BE5A00C06E0C /* BLCUser.m in Sources */,
 				E2538AC51A910C9100CCAA51 /* BLCCameraToolbar.m in Sources */,
 				E2FB83681A6EF4EB002C07E8 /* BLCMediaFullScreenAnimator.m in Sources */,
@@ -406,10 +422,12 @@
 				E24F80AA1A167BDB00C06E0C /* BLCImagesTableViewController.m in Sources */,
 				E24F80B01A19BEDC00C06E0C /* BLCMedia.m in Sources */,
 				E27617E31A775AEA0074D3DA /* BLCCircleSpinnerView.m in Sources */,
+				E20679171A9CBF6B002375DB /* BLCImageLibraryViewController.m in Sources */,
 				E24F80B31A19BFB600C06E0C /* BLCComment.m in Sources */,
 				E2C9216B1A3E0E65004A1CBF /* BLCMediaFullScreenViewController.m in Sources */,
 				E22FCDA51A1B3C59000052F5 /* BLCMediaTableViewCell.m in Sources */,
 				E24F80B61A19C03E00C06E0C /* BLCDataSource.m in Sources */,
+				E206790E1A9C9176002375DB /* BLCCropBox.m in Sources */,
 				E2538ACB1A91143A00CCAA51 /* BLCCameraViewController.m in Sources */,
 				E2DBC9281A2FA9D300532A18 /* BLCLoginViewController.m in Sources */,
 				E270EA131A814774001FC1B4 /* BLCComposeCommentView.m in Sources */,
