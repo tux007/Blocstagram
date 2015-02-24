@@ -16,6 +16,7 @@
 #import "BLCMediaFullScreenAnimator.h"
 #import "BLCCameraViewController.h"
 #import "BLCImageLibraryViewController.h"
+#import "BLCPostToInstagramViewController.h"
 
 @interface BLCImagesTableViewController () <BLCMediaTableViewCellDelegate, UIViewControllerTransitioningDelegate, BLCCameraViewControllerDelegate, BLCImageLibraryViewControllerDelegate>
 
@@ -90,14 +91,19 @@
     return;
 }
 
+- (void) handleImage:(UIImage *)image withNavigationController:(UINavigationController *)nav {
+    if (image) {
+        BLCPostToInstagramViewController *postVC = [[BLCPostToInstagramViewController alloc] initWithImage:image];
+        
+        [nav pushViewController:postVC animated:YES];
+    } else {
+        [nav dismissViewControllerAnimated:YES completion:nil];
+    }
+}
+
 - (void) cameraViewController:(BLCCameraViewController *)cameraViewController didCompleteWithImage:(UIImage *)image {
-    [cameraViewController dismissViewControllerAnimated:YES completion:^{
-        if (image) {
-            NSLog(@"Got an image!");
-        } else {
-            NSLog(@"Closed without an image.");
-        }
-    }];
+    
+    [self handleImage:image withNavigationController:cameraViewController.navigationController];
 }
 
 
@@ -297,7 +303,8 @@
 
 
 
- #pragma mark - UIViewControllerTransitioningDelegate
+#pragma mark - UIViewControllerTransitioningDelegate
+
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source {
     BLCMediaFullScreenAnimator *animator = [BLCMediaFullScreenAnimator new];
     animator.presenting = YES;
@@ -399,13 +406,8 @@
 }
 
 - (void) imageLibraryViewController:(BLCImageLibraryViewController *)imageLibraryViewController didCompleteWithImage:(UIImage *)image {
-    [imageLibraryViewController dismissViewControllerAnimated:YES completion:^{
-        if (image) {
-            NSLog(@"Got an image!");
-        } else {
-            NSLog(@"Closed without an image.");
-        }
-    }];
+
+    [self handleImage:image withNavigationController:imageLibraryViewController.navigationController];
 }
 
 

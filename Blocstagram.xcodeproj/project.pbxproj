@@ -39,6 +39,7 @@
 		E270EA131A814774001FC1B4 /* BLCComposeCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E270EA121A814774001FC1B4 /* BLCComposeCommentView.m */; };
 		E27617E31A775AEA0074D3DA /* BLCCircleSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E27617E21A775AEA0074D3DA /* BLCCircleSpinnerView.m */; };
 		E27617E61A77EFAD0074D3DA /* BLCLikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E27617E51A77EFAD0074D3DA /* BLCLikeButton.m */; };
+		E2A752101A9D173000108FEC /* BLCPostToInstagramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A7520F1A9D173000108FEC /* BLCPostToInstagramViewController.m */; };
 		E2C9216B1A3E0E65004A1CBF /* BLCMediaFullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C9216A1A3E0E65004A1CBF /* BLCMediaFullScreenViewController.m */; };
 		E2DBC9281A2FA9D300532A18 /* BLCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DBC9271A2FA9D300532A18 /* BLCLoginViewController.m */; };
 		E2FB83681A6EF4EB002C07E8 /* BLCMediaFullScreenAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FB83671A6EF4EB002C07E8 /* BLCMediaFullScreenAnimator.m */; };
@@ -109,6 +110,8 @@
 		E27617E21A775AEA0074D3DA /* BLCCircleSpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCCircleSpinnerView.m; sourceTree = "<group>"; };
 		E27617E41A77EFAD0074D3DA /* BLCLikeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCLikeButton.h; sourceTree = "<group>"; };
 		E27617E51A77EFAD0074D3DA /* BLCLikeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCLikeButton.m; sourceTree = "<group>"; };
+		E2A7520E1A9D173000108FEC /* BLCPostToInstagramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCPostToInstagramViewController.h; sourceTree = "<group>"; };
+		E2A7520F1A9D173000108FEC /* BLCPostToInstagramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCPostToInstagramViewController.m; sourceTree = "<group>"; };
 		E2C921691A3E0E65004A1CBF /* BLCMediaFullScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCMediaFullScreenViewController.h; sourceTree = "<group>"; };
 		E2C9216A1A3E0E65004A1CBF /* BLCMediaFullScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCMediaFullScreenViewController.m; sourceTree = "<group>"; };
 		E2DBC9261A2FA9D300532A18 /* BLCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCLoginViewController.h; sourceTree = "<group>"; };
@@ -205,6 +208,8 @@
 				E20679101A9CA29A002375DB /* BLCCropImageViewController.m */,
 				E20679151A9CBF6B002375DB /* BLCImageLibraryViewController.h */,
 				E20679161A9CBF6B002375DB /* BLCImageLibraryViewController.m */,
+				E2A7520E1A9D173000108FEC /* BLCPostToInstagramViewController.h */,
+				E2A7520F1A9D173000108FEC /* BLCPostToInstagramViewController.m */,
 				E24F807A1A1678B800C06E0C /* Images.xcassets */,
 				E2538AC61A91138C00CCAA51 /* Main.storyboard */,
 				E24F807C1A1678B800C06E0C /* LaunchScreen.xib */,
@@ -431,6 +436,7 @@
 				E2538ACB1A91143A00CCAA51 /* BLCCameraViewController.m in Sources */,
 				E2DBC9281A2FA9D300532A18 /* BLCLoginViewController.m in Sources */,
 				E270EA131A814774001FC1B4 /* BLCComposeCommentView.m in Sources */,
+				E2A752101A9D173000108FEC /* BLCPostToInstagramViewController.m in Sources */,
 				E2538ACE1A92219200CCAA51 /* UIImage+BLCImageUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
