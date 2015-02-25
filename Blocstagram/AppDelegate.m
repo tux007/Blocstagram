@@ -42,8 +42,8 @@
     
     self.window.rootViewController = navVC;
     
-    // self.window.backgroundColor = [UIColor whiteColor];
-    // [self.window makeKeyAndVisible];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
