@@ -12,6 +12,7 @@
 		E20679111A9CA29A002375DB /* BLCCropImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20679101A9CA29A002375DB /* BLCCropImageViewController.m */; };
 		E20679171A9CBF6B002375DB /* BLCImageLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E20679161A9CBF6B002375DB /* BLCImageLibraryViewController.m */; };
 		E22FCDA51A1B3C59000052F5 /* BLCMediaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E22FCDA41A1B3C59000052F5 /* BLCMediaTableViewCell.m */; };
+		E2467B241A9DEAB50098B297 /* BLCUserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2467B231A9DEAB50098B297 /* BLCUserTests.m */; };
 		E24F80701A1678B800C06E0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E24F806F1A1678B800C06E0C /* main.m */; };
 		E24F80731A1678B800C06E0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E24F80721A1678B800C06E0C /* AppDelegate.m */; };
 		E24F807B1A1678B800C06E0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24F807A1A1678B800C06E0C /* Images.xcassets */; };
@@ -37,6 +38,10 @@
 		E2538ACB1A91143A00CCAA51 /* BLCCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2538ACA1A91143A00CCAA51 /* BLCCameraViewController.m */; };
 		E2538ACE1A92219200CCAA51 /* UIImage+BLCImageUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E2538ACD1A92219200CCAA51 /* UIImage+BLCImageUtilities.m */; };
 		E270EA131A814774001FC1B4 /* BLCComposeCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E270EA121A814774001FC1B4 /* BLCComposeCommentView.m */; };
+		E273D41F1A9DECE6008BEC82 /* BLCCommentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E273D41E1A9DECE6008BEC82 /* BLCCommentTests.m */; };
+		E273D4211A9DEDBE008BEC82 /* BLCComposeCommentTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E273D4201A9DEDBE008BEC82 /* BLCComposeCommentTest.m */; };
+		E273D4231A9DEE2C008BEC82 /* BLCMediaTableViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E273D4221A9DEE2C008BEC82 /* BLCMediaTableViewTest.m */; };
+		E273D4251A9DEE9E008BEC82 /* BLCMediaTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E273D4241A9DEE9E008BEC82 /* BLCMediaTest.m */; };
 		E27617E31A775AEA0074D3DA /* BLCCircleSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E27617E21A775AEA0074D3DA /* BLCCircleSpinnerView.m */; };
 		E27617E61A77EFAD0074D3DA /* BLCLikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E27617E51A77EFAD0074D3DA /* BLCLikeButton.m */; };
 		E2A752101A9D173000108FEC /* BLCPostToInstagramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A7520F1A9D173000108FEC /* BLCPostToInstagramViewController.m */; };
@@ -68,6 +73,7 @@
 		E22FCDA31A1B3C59000052F5 /* BLCMediaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCMediaTableViewCell.h; sourceTree = "<group>"; };
 		E22FCDA41A1B3C59000052F5 /* BLCMediaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCMediaTableViewCell.m; sourceTree = "<group>"; };
 		E23467041A9DD271004E2149 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E2467B231A9DEAB50098B297 /* BLCUserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCUserTests.m; sourceTree = "<group>"; };
 		E24F806A1A1678B800C06E0C /* Blocstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blocstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24F806E1A1678B800C06E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E24F806F1A1678B800C06E0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -107,6 +113,10 @@
 		E2538ACD1A92219200CCAA51 /* UIImage+BLCImageUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BLCImageUtilities.m"; sourceTree = "<group>"; };
 		E270EA111A814774001FC1B4 /* BLCComposeCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCComposeCommentView.h; sourceTree = "<group>"; };
 		E270EA121A814774001FC1B4 /* BLCComposeCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCComposeCommentView.m; sourceTree = "<group>"; };
+		E273D41E1A9DECE6008BEC82 /* BLCCommentTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCCommentTests.m; sourceTree = "<group>"; };
+		E273D4201A9DEDBE008BEC82 /* BLCComposeCommentTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCComposeCommentTest.m; sourceTree = "<group>"; };
+		E273D4221A9DEE2C008BEC82 /* BLCMediaTableViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCMediaTableViewTest.m; sourceTree = "<group>"; };
+		E273D4241A9DEE9E008BEC82 /* BLCMediaTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCMediaTest.m; sourceTree = "<group>"; };
 		E27617E11A775AEA0074D3DA /* BLCCircleSpinnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCCircleSpinnerView.h; sourceTree = "<group>"; };
 		E27617E21A775AEA0074D3DA /* BLCCircleSpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCCircleSpinnerView.m; sourceTree = "<group>"; };
 		E27617E41A77EFAD0074D3DA /* BLCLikeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCLikeButton.h; sourceTree = "<group>"; };
@@ -234,7 +244,12 @@
 			isa = PBXGroup;
 			children = (
 				E24F80891A1678B800C06E0C /* BlocstagramTests.m */,
+				E2467B231A9DEAB50098B297 /* BLCUserTests.m */,
+				E273D41E1A9DECE6008BEC82 /* BLCCommentTests.m */,
+				E273D4201A9DEDBE008BEC82 /* BLCComposeCommentTest.m */,
+				E273D4221A9DEE2C008BEC82 /* BLCMediaTableViewTest.m */,
 				E24F80871A1678B800C06E0C /* Supporting Files */,
+				E273D4241A9DEE9E008BEC82 /* BLCMediaTest.m */,
 			);
 			path = BlocstagramTests;
 			sourceTree = "<group>";
@@ -447,7 +462,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E273D4211A9DEDBE008BEC82 /* BLCComposeCommentTest.m in Sources */,
+				E2467B241A9DEAB50098B297 /* BLCUserTests.m in Sources */,
+				E273D4251A9DEE9E008BEC82 /* BLCMediaTest.m in Sources */,
 				E24F808A1A1678B800C06E0C /* BlocstagramTests.m in Sources */,
+				E273D4231A9DEE2C008BEC82 /* BLCMediaTableViewTest.m in Sources */,
+				E273D41F1A9DECE6008BEC82 /* BLCCommentTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
